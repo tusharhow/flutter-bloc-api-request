@@ -1,16 +1,5 @@
-# bloc_api
+### Bloc Api Example
 
-A new Flutter project.
+This is a simple example of how to use the bloc api.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Bloc Post Api](https://user-images.githubusercontent.com/65107679/207379028-df9e44ac-fe04-451a-92cd-03d38550c1d0.gif)

@@ -4,7 +4,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import '../components/post_listview_item.dart';
 import '../repository/post_repository.dart';
 
-
 class MyHomePage extends StatelessWidget {
   const MyHomePage({Key? key}) : super(key: key);
 
@@ -15,9 +14,7 @@ class MyHomePage extends StatelessWidget {
         RepositoryProvider.of<PostRepository>(context),
       )..add(LoadPostEvent()),
       child: Scaffold(
-        appBar: AppBar(
-          title: const Text('The Post App'),
-        ),
+        appBar: AppBar(title: const Text('The Post App')),
         body: BlocBuilder<PostBloc, PostApiState>(
           builder: (context, state) {
             if (state is PostLoadingState) {
